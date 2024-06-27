@@ -1,9 +1,10 @@
 #card {
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: 340px;
-    height: 340px;
+    width: 450px;
+    height: 700px;
     border-radius: 10px;
     @media (max-width: 810px){
         justify-content: flex-start;
@@ -23,9 +24,7 @@
     h2{
         width:290px;
         font-weight: 700;
-        position: absolute;
         color: white;
-        padding-top: 260px;
         font-size: 18px;
         @media (max-width: 810px){
             padding-left: 20px;

@@ -1,5 +1,8 @@
 import React from 'react'
+
+
 import Me from "../assets/images/Me.webp"
+
 import "./home.scss"
 
 export default function Home() {              
@@ -10,7 +13,7 @@ export default function Home() {
           id="me" 
           src={Me}
           alt="Mon portrait" />      
-        <span>David Martz<br/>38 ans</span>
+        <h1>David Martz<br/>38 ans</h1> 
       </div>
       <div id="motivation">
         <p>Après 15 ans d'expérience dans le domaine de la réfrigération comme technicien confirmé, j'ai réalisé que
@@ -18,7 +21,7 @@ export default function Home() {
         <p>Dans le cadre de mon évolution professionnel et personnel, j'ai toujours pris à coeur d'acquérir de nouvelles compétences
           dans les domaines qui me passionnent.</p>
         <p>Afin d'y parvenir, j'ai suivi une formation de développeur web et aujourd'hui je souhaite appliquer et parfaire mes connaissances dans ce domaine.</p>
-      </div>                                                               
+      </div>                                                    
     </div>
   );
 };

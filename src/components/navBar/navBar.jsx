@@ -10,8 +10,9 @@ const NavBar = () => {
         {NavBarList.map((link => {             
           return (                                                          
             <NavLink
-                className={({ isActive }) => (isActive ? 'active' : '')}
-                to={`/${link.page}`}>{link.name}
+              key={link.name}
+              className={({ isActive }) => (isActive ? 'active' : '')}
+              to={`/${link.page}`}>{link.name}
             </NavLink>           
           );
         }))}

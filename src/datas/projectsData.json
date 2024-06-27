@@ -1,0 +1,42 @@
+[
+    {
+        "id":"Booki",
+        "name":"Booki",
+        "cover":"../assets/images/projects/booki.webp",
+        "link":"https://github.com/d86martz/Booki",
+        "description":"bla bla bla"
+        
+    },
+    {
+        "id":"Sophie_Bluel",
+        "name":"Sophie Bluel",
+        "cover":"../assets/images/projects/sophiebluel.webp",
+        "link":"https://github.com/d86martz/Sophie-Bluel",
+        "description":"bla bla bla"
+        
+    },
+    {
+        "id":"Nina_Carducci",
+        "name":"Nina Carducci",
+        "cover":"../assets/images/projects/ninacarducci.webp",
+        "link":"https://github.com/d86martz/Nina-Carducci",
+        "description":"bla bla bla"
+        
+    },
+    {
+        "id":"Kasa",
+        "name":"Kasa",
+        "cover":"../assets/images/projects/kasa.webp",
+        "link":"https://github.com/d86martz/Kasa",
+        "description":"bla bla bla"
+        
+    },
+    {
+        "id":"Mon_vieux_Grimoire",
+        "name":"Mon vieux Grimoire",
+        "cover":"../assets/images/projects/monvieuxgrimoire.webp",
+        "link":"https://github.com/d86martz/Mon-vieux-grimoire",
+        "description":"bla bla bla"
+        
+    }
+]

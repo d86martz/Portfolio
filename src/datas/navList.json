@@ -4,19 +4,11 @@
         "page":"" 
     },
     {
-        "name":"Compétences",
+        "name":"Mon Parcours",
         "page":"skills"
     },
     {
-        "name":"Portfolio",
+        "name":"Mes réalisations",
         "page":"portfolio"
-    },
-    {
-        "name":"A Propos",
-        "page":"about"
-    },
-    {
-        "name":"Contact",
-        "page":"contact"
     }
 ]

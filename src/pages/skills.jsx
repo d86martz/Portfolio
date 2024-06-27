@@ -1,3 +1,5 @@
+import { PDFDownloadLink } from '@react-pdf/renderer';
+import CV from "../assets/documents/CV.pdf"
 import "./skills.scss"
 
 export default function Skills() {              
@@ -8,17 +10,20 @@ export default function Skills() {
           <ul>
             <li>HTML</li> 
             <li>CSS</li>
+            <li>SASS</li>
             <li>JAVASCRIPT</li>
-            <li>React</li>
+            <li>REACT</li>
+            <li>SEO</li>
+            
           </ul>
         </div>
         <div className="skill">
           <h1>Backend</h1>
           <ul>
-              <li>React</li> 
+              <li>React</li>
+              <li>Node.js</li> 
               <li>Express.js</li>
-              <li>MongoDB</li>
-              <li>Node.js</li>
+              <li>Mongoose</li>
             </ul>
         </div>
         <div className="skill">
@@ -30,6 +35,11 @@ export default function Skills() {
               <li>Postman</li>
             </ul>
         </div>
+        <div>
+            <PDFDownloadLink document={<CV />} fileName="CV David Martz.pdf">
+              {({loading}) => (loading ? 'Loading document...' : 'Mon CV.pdf')}
+            </PDFDownloadLink>  
+      </div>        
     </div>
     );
   };
