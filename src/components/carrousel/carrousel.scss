@@ -1,0 +1,57 @@
+#carrousel{
+    display: flex;
+    transition: transform .5s ease;
+    width: 100%;
+    height: 415px;
+    @media (max-width: 665px){
+        height:255px;
+    }
+    img {
+        width: 100%;
+        height:100%;
+        object-fit: cover;
+        border-radius: 15px;
+    }
+    #carrousel-controls{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        position: absolute;
+        width:1240px;
+        min-width: 330px;
+        top:340px;
+        @media (max-width: 1440px){
+            width: 86%;
+        }
+        @media (max-width: 665px){
+            top:230px;
+        }
+        @media (max-width: 510px){
+            top:210px;
+        }
+        img {
+            width:64px;
+            cursor: pointer;
+            @media (max-width: 665px){
+                width: 48px; 
+            }
+            @media (max-width: 510px){
+                width: 24px; 
+            }
+        }
+    }
+    p{
+        position: absolute;
+        top: 500px;
+        left: 49%;
+        font-size: 18px;
+        color: white;
+        @media (max-width: 665px){
+            font-size: 14px;
+            top:330px;
+        }
+        @media (max-width: 510px){
+            display:none;
+        }
+    }
+}   

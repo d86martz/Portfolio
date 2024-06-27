@@ -1,0 +1,22 @@
+[     
+    {  
+        "name":"Présentation",
+        "page":"" 
+    },
+    {
+        "name":"Compétences",
+        "page":"skills"
+    },
+    {
+        "name":"Portfolio",
+        "page":"portfolio"
+    },
+    {
+        "name":"A Propos",
+        "page":"about"
+    },
+    {
+        "name":"Contact",
+        "page":"contact"
+    }
+]

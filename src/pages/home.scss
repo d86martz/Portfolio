@@ -1,0 +1,33 @@
+#description{
+    margin: 3em 0;
+    gap:5em;
+    #bio{
+        gap:2em;
+        #me{
+            width: 13em;
+            border-radius:25em;
+        }
+        span{
+            color: white;
+            font-size:x-large;
+            font-weight: 500;
+            text-align: center;
+        }
+    }
+    #motivation{
+        width: 50%;
+        border: 1em solid rgb(26, 15, 2);
+        border-radius: 1.5em;
+        padding:1em;
+        background-color: rgb(143, 129, 121, 0.3);
+        color: white;
+        font-size:x-large;
+        gap:0em;
+        text-align: left;
+        @media screen and (max-width: 768px) {
+            font-size: large;
+            width: 80%;
+            padding: 0.5em;
+          }
+    }
+}

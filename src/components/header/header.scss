@@ -1,0 +1,21 @@
+header {
+  display: flex;
+  width: 90%;
+  height:12em;
+  align-items: center;
+  justify-content: end;
+  padding-bottom: 1em;
+  border-bottom: 0.3em solid white ;
+  @media screen and (max-width: 800px) { 
+    justify-content: center;
+  }
+  nav {
+    min-width: 340px;
+    padding-top: 1em;
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    flex-wrap: wrap;
+    gap: 4em;
+}
+}

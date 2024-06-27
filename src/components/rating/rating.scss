@@ -1,0 +1,18 @@
+#rating {
+  ul {
+    display: flex;
+    gap: 10px;
+    @media (max-width: 665px) {
+      height: 18px;
+      padding-left: 0;
+    }
+    li {
+      img {
+        height: 24px;
+        @media (max-width: 810px) {
+          height: 13px;
+        }
+      }
+    }
+  }
+}
