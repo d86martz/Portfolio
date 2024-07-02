@@ -6,7 +6,7 @@ import NavBarList from "../../datas/navList.json";
 
 const NavBar = () => {                                                 
   return (                                                                  
-    <nav>
+    <nav id="navBar">
         {NavBarList.map((link => {             
           return (                                                          
             <NavLink
