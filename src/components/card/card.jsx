@@ -9,8 +9,10 @@ const Card = (props) => {
   };
   return (                                            
     <li id="card" onClick={() => projectPage(id)}>
-      <h2>{props.title}</h2>    
-      <img src={props.cover} alt={props.title} />
+      <h2>{props.title}</h2>  
+      <div className="imgBox">  
+        <img src={props.cover} alt={props.title} />
+      </div>
     </li>
   );
 };
