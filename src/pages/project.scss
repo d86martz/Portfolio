@@ -2,26 +2,32 @@
     color: white;
     font-size: x-large;
     margin: 2em;
-    gap:2em;
-    #overview {
-        display:flex;
-        flex-direction: row;
-        gap:2em;
-        #details{
-            gap:3em;
-            a{
-                font-size: 1.5em;
-                font-weight: 500;
-                color: white;
-                cursor: pointer;
-                text-decoration: none;
-                &:hover {
-                    color: red;
-                }
-            }
-            #resources {
-                width:50%;
-            }
-        }                
+    gap:1em;
+    #returnBtn{
+        position:absolute;
+        right: 5%;
+        font-size: larger;
+        background: none;
+        color:white;
+        border: none;
+        &:hover{
+            cursor:pointer;
+        }
     }
+    #details{
+        gap:3em;
+        a{
+            font-size: 1.5em;
+            font-weight: 500;
+            color: white;
+            cursor: pointer;
+            text-decoration: none;
+            &:hover {
+                color: red;
+            }
+        }
+        #resources {
+            width:50%;
+        }
+    }                
 }

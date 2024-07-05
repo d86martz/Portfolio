@@ -3,9 +3,6 @@
         "id":"Booki",
         "name":"Booki",
         "cover":"../assets/images/projects/booki.webp",
-        "pictures": [
-			"../assets/images/projects/booki.webp"
-		],
         "link":"https://github.com/d86martz/Booki",
         "mission":"Création de la page d'accueil d'une agence de voyage en utilisant HTML et CSS.",
         "targets": [
@@ -13,20 +10,17 @@
             "Intégrer du contenu conformément à une maquette avec HTML et CSS",
             "Versionner son projet avec Git et Github"
         ],
-            "resources":[
-                "Interface responsive",
-                "",
-                "",
-                ""
-            ]
+        "tools":[
+            "Visual Sutdio Code",
+            "Git/Github",
+            "Figma",
+            "Validateur HTML et CSS"
+        ]
     },
     {
         "id":"Sophie_Bluel",
         "name":"Sophie Bluel",
         "cover":"../assets/images/projects/sophiebluel.webp",
-        "pictures": [
-			"../assets/images/projects/sophiebluel.webp"
-		],
         "link":"https://github.com/d86martz/Sophie-Bluel",
         "mission":"Création d'une page web dynamique pour le site internet d'une architecte d'intérieur en utilisant JavaScript et en communiquant avec une API.",
         "targets":[
@@ -34,46 +28,18 @@
             "Manipuler les éléments du DOM avec JavaScript",
             "Récupérer les données utilisateurs dans le JavaScript via des formulaires"
         ],
-        "resources":[
-            "DOM",
-            "",
-            "",
-            ""
-        ]
-    },
-    {
-        "id":"Menu_Maker",
-        "name":"Menu Maker by Qwenta",
-        "cover":"../assets/images/projects/menumaker.webp",
-        "pictures": [
-			"../assets/images/projects/menumaker.webp"
-		],
-        "link":"null",
-        "mission":"Planification du développement d'un site web.",
-        "targets":[
-            "Découper une fonctionnalités en tâches pour préparer le développement",
-            "Mettre en place une méthode de veille technologique",
-            "Présenter la solution technique",
-            "Rédiger les spécifications techniques d'un projet web à partir de besoins fonctionnels",
-            "Suivre le déroulement du projet grâce à un outil de gestion de projet"
-        ],
-        "resources":[
-            "Spécifications fonctionnelles et techniques",
-            "Users Stories",
-            "Veille technologiques",
-            "gestion de projet",
-            "",
-            "",
-            ""
+        "tools":[
+            "Visual Studio Code",
+            "Git/Github",
+            "Figma",
+            "Kanban",
+            "Swagger"
         ]
     },
     {
         "id":"Nina_Carducci",
         "name":"Nina Carducci",
         "cover":"../assets/images/projects/ninacarducci.webp",
-        "pictures": [
-			"../assets/images/projects/ninacarducci.webp"
-		],
         "link":"https://github.com/d86martz/Nina-Carducci",
         "mission":"Optimisation du référencement d’un site, en améliorant sa performance et son accessibilité.",
         "targets":[
@@ -81,24 +47,18 @@
             "Débugger un site web grâce aux Chrome DevTools",
             "Rédiger un cahier de recette pour tester un site"
         ],
-        "resources":[
-            "SEO",
-            "Référencement",
+        "tools":[
             "Lighthouse",
-            "Wave",
-            "DevTools",
-            "",
-            "",
-            ""
+            "GTMetrix",
+            "Chrome DevTools",
+            "Rich Snippet Google",
+            "Wave Evaluation Tool"
         ]
     },
     {
         "id":"Kasa",
         "name":"Kasa",
         "cover":"../assets/images/projects/kasa.webp",
-        "pictures": [
-			"../assets/images/projects/kasa.webp"
-		],
         "link":"https://github.com/d86martz/Kasa",
         "mission":"implémentation du front-end d’une application en utilisant React et React Router pour créer une expérience utilisateur moderne et réactive.",
         "targets":[
@@ -108,20 +68,17 @@
             "Mettre en œuvre des animations CSS",
             "Initialiser une application avec Create React App"
         ],
-        "resources": [
-            "Routage",
-            "",
-            "",
-            ""
+        "tools": [
+            "Visual Studio Code",
+            "Git/Github",
+            "React",
+            "SASS"
         ]
     },
     {
         "id":"Mon_vieux_Grimoire",
         "name":"Mon vieux Grimoire",
         "cover":"../assets/images/projects/monvieuxgrimoire.webp",
-        "pictures": [
-			"../assets/images/projects/monvieuxgrimoire.webp"
-		],
         "link":"https://github.com/d86martz/Mon-vieux-grimoire",
         "mission":"développement du back-end d'un site de notation de livres.",
         "targets":[
@@ -129,13 +86,12 @@
             "Mettre en œuvre des opérations CRUD de manière sécurisée",
             "Stocker des données de manière sécurisée"
         ],
-        "resources":[
-            "CRUD",
-            "Green Code",
-            "API RESTful",
-            "",
-            "",
-            ""
+        "tools":[
+            "Visual Studio Code",
+            "Git/Github",
+            "Node JS",
+            "Express",
+            "MongoDB"
         ]
     }
 ]
