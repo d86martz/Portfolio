@@ -1,5 +1,5 @@
-// import { PDFDownloadLink } from '@react-pdf/renderer';
-import PDF from '../../public/assets/documents/CV David Martz.pdf'
+import CV from '../assets/documents/CV David Martz.pdf';
+import CVPreview from '../assets/documents/CV David Martz.png';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faHtml5 } from '@fortawesome/free-brands-svg-icons';
 import { faCss3 } from '@fortawesome/free-brands-svg-icons';
@@ -51,12 +51,10 @@ export default function Skills() {
         </div>
       </div>
       <div id="mycv">
-        <Document file={PDF}> 
-          <Page pageNumber={1} /> 
-        </Document>
-          {/* <PDFDownloadLink document={<CV />} fileName="CV David Martz.pdf">
-            {({loading}) => (loading ? 'Loading document...' : 'CV David Martz.pdf')}
-          </PDFDownloadLink>   */}       
+        <img 
+          src={CVPreview}
+          alt="Curriculum vitae" />
+        <a href={CV} target='blank'>Télécharger Mon CV</a>
       </div>
     </div>
   );
