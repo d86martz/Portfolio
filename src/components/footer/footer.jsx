@@ -10,7 +10,7 @@ import "./footer.scss"
 const Footer = () => {                                      
   return (                                                  
     <footer>
-      <h3>ME CONTACTER :</h3>
+      <p>ME CONTACTER :</p>
         <ul>
           <li>
             <Link to="tel:+33617682991"><FontAwesomeIcon icon={faPhone} /> + 33 6 17 68 29 91</Link>

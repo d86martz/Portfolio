@@ -31,7 +31,7 @@ export default function Project () {
     );                     
     return (                                                                                       
       <div id="project">
-        <button id="returnBtn" onClick={() => nav(-1)}><FontAwesomeIcon icon={faArrowLeft} /></button>
+        <button aria-label="return" id="returnBtn" onClick={() => nav(-1)}><FontAwesomeIcon icon={faArrowLeft} /></button>
         <div id="title">
           <h1>{project.name}</h1>
         </div>   

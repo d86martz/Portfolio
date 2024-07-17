@@ -8,12 +8,12 @@ import "./home.scss"
 export default function Home() {              
   return (
     <div id="description">
+      <h1>Présentation</h1>
       <div id="bio">
         <img 
-          id="me" 
           src={Me}
           alt="Mon portrait" />      
-        <h1>David Martz<br/>38 ans</h1> 
+        <p>David Martz<br/>38 ans</p> 
       </div>
       <div id="motivation">
         <p>Après 15 ans d'expérience dans le domaine de la réfrigération comme technicien confirmé, j'ai réalisé que

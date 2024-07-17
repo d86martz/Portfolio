@@ -15,7 +15,9 @@ import "./skills.scss"
 
 export default function Skills() {   
   return (
-    <div id="skills">
+    <div id="myskills">
+      <h1>Mes Comptétences</h1>
+      <div id="skills">
       <div id="skill-tools">
         <div className="skill">
           <h2>Frontend</h2>
@@ -56,6 +58,7 @@ export default function Skills() {
           src={CVPreview}
           alt="Curriculum vitae" />
         <a href={CV} target='blank'><span><FontAwesomeIcon icon={faDownload}/></span>Télécharger Mon CV</a>
+      </div>
       </div>
     </div>
   );

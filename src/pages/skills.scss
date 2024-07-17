@@ -1,52 +1,55 @@
-#skills {
-    flex-direction: row;
+#myskills{
     justify-content: space-between;
-    margin:5em 2em;
-    gap:1em;
-    @media screen and (max-width: 750px) {
-        flex-direction: column;
-        margin:3em 0em;
-    }
-    #skill-tools{
-        h2{
-            color:yellow;
-        }
-        font-size:larger;
-        @media screen and (max-width: 1025px) {
-            font-size:medium;
-        }
+    margin:3em 2em;
+    gap:5em;
+    color:white;
+    #skills {
+        flex-direction: row;
         @media screen and (max-width: 750px) {
-            font-size:small;
-        } 
-        color: white;
-        ul{
-            list-style: none;
-            padding:0;
-            li{
-                display:flex;
-                white-space: nowrap;
-                justify-content: center;
-                align-items: center;
-                span{
-                    padding-right: 0.5em;
+            flex-direction: column;
+            margin:3em 0em;
+        }
+        #skill-tools{
+            h2{
+                color:yellow;
+            }
+            font-size:larger;
+            @media screen and (max-width: 1025px) {
+                font-size:medium;
+            }
+            @media screen and (max-width: 750px) {
+                font-size:small;
+            } 
+            color: white;
+            ul{
+                list-style: none;
+                padding:0;
+                li{
+                    display:flex;
+                    white-space: nowrap;
+                    justify-content: center;
+                    align-items: center;
+                    span{
+                        padding-right: 0.5em;
+                    }
                 }
             }
         }
-    }
-    #mycv{
-        gap:1em;
-        img{
-            width:80%;
-        }
-        a{
-            color:yellow;
-            text-decoration: none;
-            &:hover, &.active {
-                text-decoration: underline red;
-                text-underline-offset: 0.5em;
+        #mycv{
+            gap:1em;
+            img{
+                width:80%;
             }
-            span{
-                padding-right: 0.5em;
+            a{
+                color:yellow;
+                text-decoration: none;
+                &:hover, &.active {
+                    text-decoration: underline red;
+                    text-underline-offset: 0.5em;
+                }
+                span{
+                    padding-right: 0.5em;
+                }
             }
         }
     }
