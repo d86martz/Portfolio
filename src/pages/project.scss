@@ -1,8 +1,15 @@
 #project{
     color: white;
-    font-size: x-large;
+    height:100%;
     margin: 2em;
+    font-size: x-large;
     gap:1em;
+    @media screen and (max-width: 1040px) {
+        font-size: large;
+      }
+    h2{
+        color:yellow;
+    }
     #returnBtn{
         position:absolute;
         right: 5%;

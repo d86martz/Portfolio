@@ -1,9 +1,8 @@
 import Gallery from "../components/gallery/gallery"
-import "./portfolio.scss"
 
 export default function Portfolio() {                                                                            
     return (  
-      <div>                                                                                     
+      <div id="portfolio">                                                                                     
       <Gallery/>
       </div>
     );
