@@ -3,14 +3,13 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    margin: 4em 0 6em 0;
+    margin: 3em 1em;
+    padding:0;
     gap: 5em;
-    padding: 50px;
     border-radius: 25px;
     @media (max-width: 810px) {
-      padding: 0;
-      background-color: white;
-      gap: 22px;
+      gap: 2em;
+      margin:3em;
     }
   }
 }

@@ -10,6 +10,7 @@ import { faNode } from '@fortawesome/free-brands-svg-icons';
 import { faFigma } from '@fortawesome/free-brands-svg-icons';
 import { faNpm } from '@fortawesome/free-brands-svg-icons';
 import { faGithub } from '@fortawesome/free-brands-svg-icons';
+import { faDownload } from '@fortawesome/fontawesome-free-solid';
 import "./skills.scss"
 
 export default function Skills() {   
@@ -54,7 +55,7 @@ export default function Skills() {
         <img 
           src={CVPreview}
           alt="Curriculum vitae" />
-        <a href={CV} target='blank'>Télécharger Mon CV</a>
+        <a href={CV} target='blank'><span><FontAwesomeIcon icon={faDownload}/></span>Télécharger Mon CV</a>
       </div>
     </div>
   );

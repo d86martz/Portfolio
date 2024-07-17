@@ -1,25 +1,32 @@
 body {
   min-width: 375px;
-  margin: 0;
   #container{
-    width: 100%;
-    min-height:100vh;
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    overflow: auto;
+    bottom:0;
     background-image: url("../src/assets/images/background.webp");
     background-position: center;
-    position: absolute;
-  }
-  #container:after{
-    content: '';
-    position: absolute;
-    top: 0;
-    left: 0;
-    width:100%;
-    min-height:100%;
-    background-color: rgba(0, 0, 0, 0.6);
+    background-size: cover;
+    &:after{
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 0;
+      width:100%;
+      height:100%;
+      background-color: rgba(0, 0, 0, 0.6);
+    }
   }
   #content{
     z-index: 1;
+    position: fixed;
+    overflow: auto;
+    bottom:0;
     width: 100%;
+    height: 100%;
+    justify-content: space-between;
   }
   div {
     display: flex;

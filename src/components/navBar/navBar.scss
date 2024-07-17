@@ -1,24 +1,26 @@
-#navBar a {
-  font-size: 2em;
-  font-weight: 500;
-  color: white;
-  cursor: pointer;
-  text-decoration: none;
-  &:hover, &.active {
-    text-decoration: underline red;
-    text-underline-offset: 1em;
+#navBar {
+  margin-bottom: 1em;
+  a {
+    font-size: 2em;
+    font-weight: 500;
+    color: white;
+    cursor: pointer;
+    text-decoration: none;
+    &:hover, &.active {
+      text-decoration: underline red;
+      text-underline-offset: 1em;
+    }
+    @media screen and (max-width: 1150px) { 
+      font-size: 1.5em;
+    }
+    @media screen and (max-width: 950px) {
+      font-size: 1em;
+      text-transform: uppercase;
+    }
+    .active {
+      text-decoration: underline;
+      text-underline-offset: 3em;
+    }
   }
-  @media screen and (max-width: 1150px) { 
-    font-size: 1.5em;
-  }
-  @media screen and (max-width: 950px) {
-    font-size: 1em;
-    text-transform: uppercase;
-  }
-  .active {
-    text-decoration: underline;
-    text-underline-offset: 3em;
-  }
-}
-  
+}  
 
